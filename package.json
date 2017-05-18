@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
     "build": "webpack",
-    "build:production": "webpack --config webpack-production.config.js"
+    "build:production": "webpack --config webpack-production.config.js",
+    "server": "webpack-dev-server"
   },
   "author": "",
   "license": "ISC",
@@ -16,7 +17,8 @@
     "source-map-loader": "^0.2.1",
     "ts-loader": "^2.0.3",
     "typescript": "^2.3.2",
-    "webpack": "^2.5.1"
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
   },
   "dependencies": {
     "@types/react": "^15.0.24",
