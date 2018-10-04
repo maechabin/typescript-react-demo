@@ -1,63 +1,63 @@
 # TypeScript-React-Demo
 
-TypeScriptで書いたReactのデモ
+TypeScript で書いた React のデモ
 
 ## Demo
 
-テキストフォームに入力した名前を表示するHello World。
+テキストフォームに入力した名前を表示する Hello World。
 
 https://maechabin.github.io/typescript-react-demo/
 
-## Demoのソースコード
+## Demo のソースコード
 
-- [src/index.tsx](https://github.com/maechabin/typescript-react-demo/blob/master/src/index.tsx)
+- [src/Hello.tsx](https://github.com/maechabin/typescript-react-demo/blob/master/src/Hello.tsx)
 - [index.html](https://github.com/maechabin/typescript-react-demo/blob/master/index.html)
 
-## Demoの確認
+## Demo の確認
 
-### 1. Demoのダウンロード（clone）
+### 1. Demo のダウンロード（clone）
 
-~~~
+```
 $ git clone git@github.com:maechabin/typescript-react-demo.git typescript-react-demo
-~~~
+```
 
-### 2. Demoをcloneしたディレクトリに移動して、必要なパッケージのインストール
+### 2. Demo を clone したディレクトリに移動して、必要なパッケージのインストール
 
-~~~
+```
 $ cd typescript-react-demo
 $ npm install
-~~~
+```
 
-### 3. Demoを開く
+### 3. Demo を開く
 
-~~~
+```
 $ open ./index.html
-~~~
+```
 
-## Demoの修正 => webpackでビルド
+## Demo の修正 => webpack でビルド
 
-### 1. 「.src/index.tsx」を修正したら、以下のコマンドを実行
+### 1. 「.src/Hello.tsx」を修正したら、以下のコマンドを実行
 
-~~~
+```
 $ npm run build
-~~~
+```
 
-#### ファイルを監視してwebpackをビルドする場合
+#### ファイルを監視して webpack をビルドする場合
 
-~~~
+```
 $ npm run watch
-~~~
+```
 
-#### HMRを使用する場合
+#### HMR を使用する場合
 
-~~~
+```
 $ npm run server
-~~~
+```
 
 http://localhost:8080で確認
 
+### 2. Demo を開く
 
-### 2. Demoを開く
-~~~
+```
 $ open ./index.html
-~~~
+```
