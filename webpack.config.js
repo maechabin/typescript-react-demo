@@ -5,20 +5,22 @@ module.exports = {
     path: __dirname + '/dist',
   },
 
-  // Enable sourcemaps for debugging webpack's output.
+  // デバッグ用にソースマップの出力を有効にします。
   devtool: 'source-map',
 
   resolve: {
-    // Add '.ts' and '.tsx' as resolvable extensions.
+    // 解決可能な拡張子として、'.ts' と '.tsx' を追加します。
     extensions: ['.ts', '.tsx', '.js', '.json'],
   },
 
   module: {
     rules: [
-      // All files with a '.ts' or '.tsx' extension will be handled by 'awesome-typescript-loader'.
+      // 拡張子が .ts と .tsx　のファイル を 'awesome-typescript-loader' で
+      // 扱うようにします。
       { test: /\.tsx?$/, loader: 'awesome-typescript-loader' },
 
-      // All output '.js' files will have any sourcemaps re-processed by 'source-map-loader'.
+      // 出力されるすべての .js ファイルは、'source-map-loader' で
+      // 再加工されたソースマップを持ちます。
       { enforce: 'pre', test: /\.js$/, loader: 'source-map-loader' },
     ],
   },
