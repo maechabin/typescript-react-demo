@@ -17,7 +17,7 @@ class Hello extends React.Component<HelloProps, HelloState> {
     this.state = {
       inputName: '',
       outputName: '',
-    } as HelloState;
+    };
     this.handleChange = this.handleChange.bind(this);
     this.handleClick = this.handleClick.bind(this);
   }
